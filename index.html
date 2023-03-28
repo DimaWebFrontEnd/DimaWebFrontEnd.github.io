@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta http-equiv="X-UA-Compatible" content="IE=7">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <meta name="author" content="Dmytro Byndin">
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+    body {  background-color: hsl(212, 45%, 89%);
+            font-family: 'Outfit', sans-serif;
+            text-align: center; 
+            font-size: 11px;
+            min-width: 375;
+            max-width: 1440px;
+            height: 100vh; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center;
+    }
+    .main {
+      background-color: hsl(0, 0%, 100%);
+      margin: 0 auto;
+      border-radius: 25px;
+      width: 320px;
+      display: grid;
+      place-content: center;
+    }
+    .main__qr {
+      width: 288px;
+      height: 288px;
+      border-radius: 25px;
+      padding: 15px;
+    }
+
+    h1 {
+      width: 250px;
+      margin-inline: auto;
+    }
+
+    p {
+      color: hsl(220, 15%, 55%);
+      width: 245px;
+      margin-inline: auto;
+      font-size: 15px;
+      padding-bottom: 25px;
+    }
+    .attribution { font-size: 11px; text-align: center; display: none;}
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<main class="main">
+  <img class="main__qr" src="images/image-qr-code.png" alt="Qr-code" title="Qr-code" width="576" height="576">
+
+  <h1>Improve your front-end skills by building projects</h1>
+
+ <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">DimaWebFrontEnd</a>.
+  </div>
+</main>
+</body>
+</html>
