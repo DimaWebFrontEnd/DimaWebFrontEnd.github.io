@@ -1,1 +1,1 @@
-# Great-things-start-from-small-beginnings
+I've added all needed images, just put them in images folder.
