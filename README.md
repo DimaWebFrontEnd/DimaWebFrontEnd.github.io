@@ -1,1 +1,1 @@
-I've added all images, just put them in images folder.
+This is my first challenge from frontendmentor.io.
